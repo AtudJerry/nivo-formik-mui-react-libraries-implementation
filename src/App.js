@@ -1,22 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Datagrid from './Components/Datagrid';
+import Signup from './Signup';
+
+import BarChart from './BarChart';
+import GeographyChart from './GeographyChart';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <br></br><br></br>
+        <BarChart/>
+        <br></br> <br></br>
+        <GeographyChart/>
+        <br></br> <br></br>
+      <Signup/>
+      <br></br><br></br>
+      <Datagrid/> 
+      <br></br><br></br>
+      
       </header>
     </div>
   );

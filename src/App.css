@@ -1,27 +1,45 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.textfield1{
+  width: 170%;
+  border-radius: 70px;
+}
+.textfield2{
+  width: 170%;
+  border-radius: 70px;
+}
+.textfield3{
+  width: 170%;
+  border-radius: 70px;
+}
+.submitbutton{
+  width: 5%;
+  border: 40%;
+}
+.text{
+  width: 300px;
+}
+p{
+  font-size: 11px;
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+@media (min-width : 1000px) {
+
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
